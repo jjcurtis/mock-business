@@ -1,0 +1,25 @@
+{
+  "name": "elysia",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun --watch src/app.ts"
+  },
+  "dependencies": {
+    "@elysiajs/bearer": "^0.6.0",
+    "@elysiajs/cookie": "^0.6.1",
+    "@elysiajs/cors": "^0.6.0",
+    "@elysiajs/jwt": "^0.6.4",
+    "@elysiajs/swagger": "^0.6.2",
+    "bcryptjs": "^2.4.3",
+    "elysia": "latest",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.3",
+    "@types/dotenv": "^8.2.0",
+    "@types/mongoose": "^5.11.97",
+    "bun-types": "latest",
+    "dotenv": "^16.3.1"
+  },
+  "module": "src/app.ts"
+}
